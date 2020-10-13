@@ -1,0 +1,40 @@
+﻿*{
+padding: 0;
+margin : 0;
+ box-sizing : border-box;
+}
+body
+{
+  background-image : url();
+  background-size : cover;
+ background-position :  center;
+ filter: blur(5px);
+  font-family : sans-serif;
+}
+.menu
+{
+  background : #40455a;
+   text-align : left;
+}
+.menu ul
+{
+     display : inline-flex;
+     list-style : none;
+     color : #fff;
+}
+.menu ul li
+{
+   width : 30px;
+   margin : 5px;
+   padding : 5px;
+}
+.menu ul li a
+{
+  text-decoration : none;
+   color : #fff;
+}
+.active , .menu ul li : hover
+{
+  background : #40455e;
+   border-radius : 2px;
+}
