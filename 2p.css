@@ -5,11 +5,15 @@ margin : 0;
 }
 body
 {
-  background-image : url(https://user-images.githubusercontent.com/70327292/95861863-abd80200-0d7f-11eb-8d8e-f68a6dc9b2b9.jpeg);
+  
+ font-family : sans-serif;
+}
+.bg{
+  background-image : url(  );
   background-size : cover;
- background-position :  center;
- filter: blur(5px);
-  font-family : sans-serif;
+  background-position : center;
+  height : 100vh;
+  filter : blur(5px);
 }
 .menu
 {
