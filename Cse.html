@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home/CSE</title>
  <link rel="stylesheet" href="2.css">
+ <script>
+    function showPage() {
+  var sel = document.getElementById('subjects');
+
+  var option = sel.options[sel.selectedIndex].value;
+
+  window.open(option + ".html");
+}
+  </script>  
 </head>
 <body class="bg">
   <h1>Hey Cseian</h1>
@@ -27,20 +36,22 @@
   <datalist id="seme">
     <option value="3-1">
     </datalist><br>
-    <label for="sub">Subject</label><br>
-  <input list="subj" name="sub" id="sub">
-  <datalist id="subj">
-    <option value="Computer Networks">
-      <option value="Web Technologies">
-      <option value="Compiler Design">
-      <option value="Data Mining and Ware Housing">
-      <option value="Management Science">
-      <option value="Software Engineering">
-      
-    </datalist><br><br>
+  <br><br>
   
+  <select id="subjects">
+
+    <option value=""></option>
+    <option value="physics">physics</option>
+    <option value="chemistry">chemistry</option>
+    <option value="biology">biology</option>
+    <option value="maths">maths</option>
+    <option value="cs">cs</option>
+    <option value="electrical">electrical</option>
+
+</select>
+
+<input class="SubmitButton" type="button" value="Submit" onclick="showPage()"  style="font-size:20px; " />
   
-  <input type="submit" value="Computer Networks">
 </form>
 </div>
    
