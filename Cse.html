@@ -34,7 +34,7 @@
  window.open("https://team-no-9.github.io/jntuacea/ms.html");
  }
  }
-   
+   function populate(){
     var Select_List_Data = {
     
     'sub': { // name of associated select box
@@ -48,7 +48,7 @@
             text: ['Random Image', 'Form Class', 'Table Class', 'Order Form'],
             value: ['random', 'form', 'table', 'order']
         }
-    
+    }
     }    
 };
 
@@ -73,7 +73,7 @@
   </datalist><br>
   
   <label for="sem">Semester</label><br>
-  <input list="seme" name="sem" id="sem"required="required">
+  <input list="seme" name="sem" id="sem"required="required" onchange="return populate()">
   <datalist id="seme">
     <option value="3-1">
      <option value="2-2">
