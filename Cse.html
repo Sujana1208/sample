@@ -4,7 +4,7 @@
     <meta charset="UTF-18">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home/CSE</title>
- <link rel="stylesheet" href="2p.css">
+ <link rel="stylesheet" href="2.css">
       <script>
       function showpage()
  {
@@ -34,6 +34,24 @@
  window.open("https://team-no-9.github.io/jntuacea/ms.html");
  }
  }
+   
+    var Select_List_Data = {
+    
+    'sub': { // name of associated select box
+        
+        // names match option values in controlling select box
+        3-1: {
+            text: ['Web Technology', 'Computer Networks', 'Data Mining&House wiring', 'Software Engineering', 'Compiler design'],
+            value: ['wt', 'cn', 'dmhw', 'se', 'cd']
+        },
+        2-2: {
+            text: ['Random Image', 'Form Class', 'Table Class', 'Order Form'],
+            value: ['random', 'form', 'table', 'order']
+        }
+    
+    }    
+};
+
       </script>
 </head>
 <body class="bg">
@@ -58,16 +76,12 @@
   <input list="seme" name="sem" id="sem"required="required">
   <datalist id="seme">
     <option value="3-1">
+     <option value="2-2">
     </datalist><br>
     <label for="sub">Subject</label><br>
   <select name="sub" id="sub">
   
-    <option value="cn">Computer networks</option>
-      <option value="wt">Web technologies</option>
-      <option value="cd">Compiler design</option>
-      <option value="dwhm">Data warehousing and mining</option>
-      <option value="ms">Management science</option>
-      <option value="se">Software engineering</option>
+    
          </select>
       
     <br><br>
