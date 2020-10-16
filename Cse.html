@@ -35,9 +35,24 @@
  }
  }
 
+var semlist=document.classic.sem
+var sublist=document.classic.sub
+ 
+var sub=new Array()
+sub[0]=""
+sub[1]=["New York|cn", "Los Angeles|se", "Chicago|cd", "Houston|dmwh", "Austin|wt"]
+sub[2]=["Vancouver|vancouvervalue", "Tonronto|torontovalue", "Montreal|montrealvalue", "Calgary|calgaryvalue"]
+
+ 
+function updatesub(selectedsu group){
+    sublist.options.length=0
+    if (selectedsubgroup>0){
+        for (i=0; i<sub[selectedsubgroup].length; i++)
+            sublist.options[sublist.options.length]=new Option(sub[selectedsubgroup][i].split("|")[0], cities[selectedcitygroup][i].split("|")[1])
+    }
+}
 
 
-giveSelection(sem.value);
       </script>
 </head>
 <body class="bg">
@@ -48,7 +63,7 @@ giveSelection(sem.value);
    
 
 <div class="cen">
-<form>
+<form name="classic">
 <label for="reg">Regulation</label><br>
   <input list="regs" name="reg" id="reg"required="required">
   <datalist id="regs">
@@ -59,22 +74,16 @@ giveSelection(sem.value);
   </datalist><br>
   
   <label for="sem">Semester</label><br>
-  <input list="seme" name="sem" id="sem"required="required" onchange="giveSelection(this.value)">
-  <datalist id="sem">
+  <input list="seme" name="sem" id="sem"required="required" onchange="updatesub(this.selectedIndex)">
+
+ <datalist id="sem">
     <option value="3-1">
 <option value="2-1">
     </datalist><br>
     <label for="sub">Subject</label><br>
   <select name="sub" id="sub">
   
-    <option data-option="3-1" value="cn">Computer networks</option>
-      <option data-option="3-1" value="wt">Web technologies</option>
-      <option data-option="3-1"   value="cd">Compiler design</option>
-      <option data-option="3-1" value="dwhm">Data warehousing and mining</option>
-      <option data-option="3-1" value="ms">Management science</option>
-      <option data-option="3-1"  value="se">Software engineering</option>
-
-    <option data-option="2-1" value="cn">Dm</option>
+   
          </select>
       
     <br><br>
