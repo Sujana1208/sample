@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Sujana Portfolio</title>
+    <style>
+    ul,p,a{
+  font-family:Helvetica;
+  color:whitesmoke;
+
+    }
+    h3{
+      color:tomato;
+    }
+    body{
+      background-repeat: no-repeat;
+  background-size: cover;
+}
+    }
+    
+    </style>
+  
+ 
+  </head>
+  <body background="laptabphn.jpg"></body>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+    <a href="#edu">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#skl">SKILLS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#crc">CERTIFICATIONS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#wrk">WORK EXPERIENCE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#ach">ACHIEVEMENTS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#cnt">CONTACT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+   <p style="text-align:center"><img src="neeru.png" width=250 height=250 "></p>
+   <p style="text-align:center">CSE UNDERGRADUATE<br>JNTUACEA<br>INTERNSHALA STUDENT PARTNER <br>
+   Beginner with strong sense for Innovation and
+     Time management </p>
+     <p >
+       <h3 id="edu">EDUCATION</h3>
+       <ul>
+         <li>JNTUA COLLEGE OF ENGINEERING ANANTAPUR (2018-2022)</li>
+         <dl>
+          <dd>Prefinalyear student majoring in Computer Science</dd>
+         </dl>
+         <li>KRISHNAREDDY SIDDHARTHA JUNIOR COLLEGE MADANAPALLI(2016-2018)</li>
+         <dl>
+          <dd>Secured 98%</dd>
+         </dl>
+         <li>GNANODAYA EM HIGH SCHOOL MADANAPALLI(2004-2016)</li>
+         <dl>
+          <dd>Secured 10 GPA</dd>
+         </dl>
+      </ul>
+      <h3 id="skl">SKILLS</h3> 
+      <ul>
+        <dt><b>Technical Skills</b></dt>
+        <li>C,C++,Java</li>
+        <li>Data structures and Algorithms</li>
+        <li>Html</li>
+        <dt><b>Soft skills</b></dt>
+        <li>Leadership</li>
+        <li>Time management</li>
+        <li>Good Communication</li>      </ul> 
+      <h3 id="crc">CERTIFICATIONS</h3>
+      <ul>
+        <li>Programming,Data Structures course offered by NPTEL,TCS ion Digital.<br>
+          <a href="https://drive.google.com/file/d/1ZIeA9CqUPPa4Gr_Xoa36mj1d3Z9i8Thw/view?usp=sharing"target="_blank">
+          ->>click here to view certificate</a>
+          <li>Attended two day workshop on Machine Learning at IIT hyderabad</li>
+          <a href="https://drive.google.com/file/d/1BzDVZPqhaQ24r_loNtnzXu_NQzIMcTa0/view?usp=sharing"target="_blank">
+            ->>click here to 
+          view certificate</a>
+          <li>Science of Success(Coursera course)</li>
+          <a href="https://drive.google.com/file/d/1C5YXg4HmTQMcPAKlZfEbZRpc0eGo4qwU/view?usp=sharing"
+          target="_blank">->>click here to view certificate</a>
+
+  
+        </li>
+      </ul>
+      <h3 id="wrk">WORK EXPERIENCE</h3>
+    <ul>
+      <li>Internshala Student partner(Present)</li>
+      <dl>
+        <dd>learning leadership,publicspeaking skills besides <br>promoting internshala trainings among peers </dd>
+      </dl>
+      <li>Microsoft Virtual Internship(Jul,2020)</li>
+      <dl>
+        <dd>*virtually experienced the working of the techgiant,Microsoft.  </dd>
+        <dd><a href="https://drive.google.com/file/d/1BqmnaDA1Jltc_wpu46hmWoyo-0Zb-l1T/view?usp=sharing"
+        target="_blank">->>click here to view certificate</a></dd>
+      </dl>
+      </ul>
+      <h3 id="ach">ACHIEVEMENTS</h3>
+      <ul>
+        <li>secured 4584 rank in NinjaHire(an online coding event by Coding Ninjas)</li>
+         <li>Awarded Prathibha Award from Governtment of Andhrapradesh for excellence in High School </li>
+       </ul>
+       <h3 id="cnt">CONTACT</h3>
+      <ul>
+       <li><a href="mailto:neerusuguna@gmail.com">mail</a></li>
+       
+       <li><a href="https://www.linkedin.com/in/neeraja-dadam-7a34061b0/">Linkedin </a></li>
+       <li><a href="https://github.com/Neerajasuguna">Github </a></li>
+       
+       <li><a href="https://www.instagram.com/suguna_neerajareddy/">Instagram</a></li>
+       </ul>
+
+
+    
+    
+    </p>
+     
+
+</html>
